@@ -31,4 +31,9 @@ for line in sys.stdin:
     else
 	dicc.update({thisKey,thisSale})
 
+# recorremos el diccionario comparando que elemento es más grande y eliminamos los pequeños
+for i in dicc:
+	for j in dicc:
+		if dicc[i] > dicc[j]
+			dicc.pop(j)
 print(dicc)
